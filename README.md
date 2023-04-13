@@ -3,7 +3,7 @@ A dungeon crawler originally made for the dungeon crawler jam 2023
 
 https://graphicmismatch.itch.io/dungeonsofduality
  
-##Tools:
+## Tools:
 ### - Engine:
       - Unity
 ### - Code Editor:
