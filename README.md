@@ -6,17 +6,17 @@ https://graphicmismatch.itch.io/dungeonsofduality
 Made using Unity
 
 Sounds:
-  Audacity
-  Bfxr
+  -Audacity
+  -Bfxr
 
 Music:
-  OpenMPT
+  -OpenMPT
 
 Sprites:
-  Aseprite
-  Paint.net
-  Paint of Persia
+  -Aseprite
+  -Paint.net
+  -Paint of Persia
 
 3d Models:
-  Blender
-  Pribambase
+  -Blender
+  -Pribambase
