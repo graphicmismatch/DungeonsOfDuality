@@ -462,7 +462,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 22414500, guid: ba42a82ec3f07ad43ae01835e65b175e, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 463
+      value: 483.3333
       objectReference: {fileID: 0}
     - target: {fileID: 22414500, guid: ba42a82ec3f07ad43ae01835e65b175e, type: 3}
       propertyPath: m_AnchoredPosition.y
@@ -582,7 +582,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 22434026, guid: ba42a82ec3f07ad43ae01835e65b175e, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 573
+      value: 593.3333
       objectReference: {fileID: 0}
     - target: {fileID: 22434026, guid: ba42a82ec3f07ad43ae01835e65b175e, type: 3}
       propertyPath: m_AnchoredPosition.y
@@ -606,7 +606,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 22460536, guid: ba42a82ec3f07ad43ae01835e65b175e, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 518
+      value: 538.3333
       objectReference: {fileID: 0}
     - target: {fileID: 22460536, guid: ba42a82ec3f07ad43ae01835e65b175e, type: 3}
       propertyPath: m_AnchoredPosition.y
@@ -630,7 +630,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 22463116, guid: ba42a82ec3f07ad43ae01835e65b175e, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 353
+      value: 373.3333
       objectReference: {fileID: 0}
     - target: {fileID: 22463116, guid: ba42a82ec3f07ad43ae01835e65b175e, type: 3}
       propertyPath: m_AnchoredPosition.y
@@ -654,7 +654,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 22470950, guid: ba42a82ec3f07ad43ae01835e65b175e, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 628
+      value: 648.3333
       objectReference: {fileID: 0}
     - target: {fileID: 22470950, guid: ba42a82ec3f07ad43ae01835e65b175e, type: 3}
       propertyPath: m_AnchoredPosition.y
@@ -678,7 +678,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 22482450, guid: ba42a82ec3f07ad43ae01835e65b175e, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 408
+      value: 428.3333
       objectReference: {fileID: 0}
     - target: {fileID: 22482450, guid: ba42a82ec3f07ad43ae01835e65b175e, type: 3}
       propertyPath: m_AnchoredPosition.y
@@ -702,7 +702,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 22499630, guid: ba42a82ec3f07ad43ae01835e65b175e, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 298
+      value: 318.3333
       objectReference: {fileID: 0}
     - target: {fileID: 22499630, guid: ba42a82ec3f07ad43ae01835e65b175e, type: 3}
       propertyPath: m_AnchoredPosition.y
@@ -1336,6 +1336,50 @@ MonoBehaviour:
   m_hasFontAssetChanged: 0
   m_baseMaterial: {fileID: 0}
   m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
+--- !u!1 &891565958
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 891565960}
+  - component: {fileID: 891565959}
+  m_Layer: 0
+  m_Name: PersistentData
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &891565959
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 891565958}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fc8b5b3e8725f1b4eb4880b0af34cb3e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!4 &891565960
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 891565958}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &937040294
 GameObject:
   m_ObjectHideFlags: 0
@@ -1397,8 +1441,8 @@ MonoBehaviour:
   m_text: Use W,A,S and D to move. Use Space to wait a turn and do nothing. Use Q
     and E to turn left and right respectively. You can also hold down Right Click
     and drag to look around. Use R to transform. When in front of an altar(shown
-    in the picture) or an enemy, Left Click to Pray or to Attack( you can only attack
-    when transformed).
+    in the picture) or an enemy, F to Pray or to Attack( you can only attack when
+    transformed).
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}

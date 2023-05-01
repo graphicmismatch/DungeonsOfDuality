@@ -12,7 +12,10 @@ EditorBuildSettings:
     path: Assets/Scenes/Cutscene.unity
     guid: 7a269578deb0b394e9d72b2c7fb63141
   - enabled: 1
-    path: Assets/Scenes/GameScene.unity
+    path: Assets/Scenes/OverWorld.unity
+    guid: 5152b5fed9e8c15488c4185e8af2a92d
+  - enabled: 1
+    path: Assets/Scenes/Dungeon1.unity
     guid: f14255cbdae1670418a1c1d80ee1f523
   - enabled: 1
     path: Assets/Scenes/BadEnd.unity
