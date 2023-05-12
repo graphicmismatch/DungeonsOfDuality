@@ -9,6 +9,9 @@ public class PersistentData : MonoBehaviour
 
     public static Vector3 pos = Vector3.zero;
     public static float rot = 0;
+    public static int world = 0;
+    public static float lightlevel = 1;
+
     // Start is called before the first frame update
     void Start()
     {

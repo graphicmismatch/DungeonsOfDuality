@@ -43,6 +43,7 @@ public class PlayerMovement : MonoBehaviour
         
     }
 
+    
     public void onsceneload(Scene scene, LoadSceneMode mode)
     {
         softreset();

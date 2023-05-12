@@ -4,6 +4,7 @@ using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.Rendering;
 using TMPro;
+using UnityEngine.SceneManagement;
 public class UIUpdater : MonoBehaviour
 {
     public Image health;
@@ -17,7 +18,7 @@ public class UIUpdater : MonoBehaviour
     public TMP_Text status;
     public GameObject HumanPortrait;
     public GameObject MonsterPortrait;
-
+    public GameObject torchholder;
     public GameObject deadscreen;
     public GameObject goodDeath;
     public GameObject badDeath;
@@ -27,11 +28,26 @@ public class UIUpdater : MonoBehaviour
     public GameObject pausemenu;
     public string lastUpdate = "";
     // Start is called before the first frame update
+
+    private void Awake()
+    {
+        SceneManager.sceneLoaded += onsceneload;
+    }
     void Start()
     {
         inst = this;
     }
-
+    public void onsceneload(Scene scene, LoadSceneMode mode)
+    {
+        if (PersistentData.lightlevel > 0.5f)
+        {
+            torchholder.SetActive(false);
+        }
+        else 
+        {
+            torchholder.SetActive(true);
+        }
+    }
     // Update is called once per frame
     void Update()
     {

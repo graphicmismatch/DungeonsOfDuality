@@ -10,7 +10,7 @@ public class GlobalTimekeeper : MonoBehaviour
     public AudioClip ticksound;
     public AudioClip[] sounds;
     public UnityEvent dotick;
-    public int world = 0;
+   
     // Start is called before the first frame update
     private void Start()
     {
