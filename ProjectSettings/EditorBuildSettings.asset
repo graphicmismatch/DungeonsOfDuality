@@ -17,16 +17,16 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Dungeon1.unity
     guid: f14255cbdae1670418a1c1d80ee1f523
+  - enabled: 0
+    path: 
+    guid: 00000000000000000000000000000000
+  - enabled: 0
+    path: 
+    guid: 00000000000000000000000000000000
+  - enabled: 0
+    path: 
+    guid: 00000000000000000000000000000000
   - enabled: 1
-    path: Assets/Scenes/BadEnd.unity
-    guid: 7adf1ad0d522c104e85bf7913648653b
-  - enabled: 1
-    path: Assets/Scenes/ZeroEnd.unity
-    guid: fb5aa6b78c5009b48972b03a7d0799ae
-  - enabled: 1
-    path: Assets/Scenes/MidEnd.unity
-    guid: 924cd125e7ff7714b9631c566f1d8e5b
-  - enabled: 1
-    path: Assets/Scenes/GoodEnd.unity
-    guid: 520a90fc7dc04b94aae8e69e65fb9a94
+    path: 
+    guid: 00000000000000000000000000000000
   m_configObjects: {}
